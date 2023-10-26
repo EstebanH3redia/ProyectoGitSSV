@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Five Nights at Freddy's</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #FFF;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #header {
+            background-color: #000;
+            padding: 20px;
+        }
+
+        #title {
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        #content {
+            background-color: #222;
+            padding: 20px;
+            border: 1px solid #FFF;
+            border-radius: 10px;
+        }
+
+        #fnaf-logo {
+            width: 200px;
+        }
+
+        #fnaf-characters {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .character {
+            margin: 10px;
+        }
+
+        .character img {
+            width: 150px;
+            border: 2px solid #FF0000;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1 id="title">Five Nights at Freddy's</h1>
+    </div>
+    <div id="content">
+        <img id="fnaf-logo" src="fnaf_logo.png" alt="FNAF Logo">
+        <h2>Bienvenido a the Fazbear's Pizza</h2>
+        <p>Sobrevive la noche y cuidado con los animatrónicos!</p>
+        <p>Creado por Los Gauchos</p>
+        <div id="fnaf-characters">
+            <div class="character">
+                <img src="freddy.png" alt="Freddy Fazbear">
+                <p>Freddy Fazbear</p>
+            </div>
+            <div class="character">
+                <img src="bonnie.png" alt="Bonnie">
+                <p>Bonnie</p>
+            </div>
+            <div class="character">
+                <img src="chica.png" alt="Chica">
+                <p>Chica</p>
+            </div>
+            <div class="character">
+                <img src="foxy.png" alt="Foxy">
+                <p>Foxy</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
